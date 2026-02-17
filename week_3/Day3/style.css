@@ -1,0 +1,75 @@
+/* Background and Font */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styling */
+h1, h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Image */
+img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: auto;
+}
+
+/* Button Styling */
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 8px 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: navy;
+}
