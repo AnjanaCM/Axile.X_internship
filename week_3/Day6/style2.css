@@ -1,0 +1,56 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 25px;
+  background: #222;
+  color: white;
+}
+
+/* Sections */
+.section {
+  width: 80%;               /* Percentage width */
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+input, select {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;              /* Percentage width */
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  .section {
+    width: 95%;
+  }
+}
